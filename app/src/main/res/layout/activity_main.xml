@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/img_xx"
+        android:src="@drawable/music_nn"
+        android:layout_width="330dp"
+        android:layout_height="330dp" />
+
+    <TextView
+        android:id="@+id/title_of_music"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Imagine Dragon \n Origins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:background="@color/green"
+            android:id="@+id/btn_left"
+            android:padding="15dp"
+            android:src="@drawable/photo_one"
+            android:layout_width="59dp"
+            android:layout_height="72dp"/>
+        <ImageButton
+            android:background="@color/green"
+            android:id="@+id/btn_stop"
+            android:padding="20dp"
+            android:src="@drawable/photo_two"
+            android:layout_width="59dp"
+            android:layout_height="72dp"/>
+        <ImageButton
+            android:background="@color/green"
+            android:id="@+id/btn_right"
+            android:padding="15dp"
+            android:src="@drawable/photo_three"
+            android:layout_width="59dp"
+            android:layout_height="72dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
